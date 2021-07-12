@@ -1,0 +1,29 @@
+.person {
+  padding: 5rem 0;
+
+  .photo-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile-img {
+    width: 19rem;
+    height: 19rem;
+    border-radius: 50%;
+    padding: 0.3rem;
+    object-fit: cover;
+    border: 1px solid var(--primary-orange);
+  }
+
+  .about-heading {
+    color: var(--primary-orange);
+    text-transform: uppercase;
+  }
+
+  @media (max-width: 468px) {
+    .profile-img {
+      width: 10rem;
+    }
+  }
+}
